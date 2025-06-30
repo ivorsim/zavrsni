@@ -1,0 +1,83 @@
+header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image:url("listeki.jpg");
+    background-repeat:repeat-x;
+    height:200px;
+    margin:auto;
+}
+nav{
+    display:flex;
+    background-color:#2c5551;
+    height:80px;
+    margin-top:10px;
+    justify-content:space-evenly;
+}
+nav ul{
+    list-style:none;
+    padding:0px;
+    margin:0px;
+}
+nav li{
+    text-decoration:none;
+    margin-top:5px;
+    display:block;
+}
+nav li a{
+    text-decoration:none;
+    color:black;
+    background-color:#f4faa2;
+    width:130px;
+    height:35px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:10px;
+    border:1px solid black;
+}
+.prva{
+    display:none;
+}
+.naslovna{
+    background-color:white;
+    width:130px;
+    height:30px;
+    border:0px;
+    border-radius:10px;
+}
+.naslovna:hover{
+    background-color:lightgray;
+}
+.glavni{
+    position:relative;
+    display:inline-block;
+    margin-left:40px;
+    margin-top:20px;
+}
+.glavni:hover{
+    width:130px;
+    height:120px;
+}
+.glavni:hover .prva{
+    display:block;
+}
+.glavni a:hover{
+    background-color:lightgray;
+}
+.glavni a:visited{
+    background-color:gray;
+}
+.rit, .zum-sam{
+    display:Flex;
+    justify-content:center;
+    align-items:center;
+}
+footer{
+    background-color:#2c5551;
+    height:100px;
+    display:flex;
+    margin-top:10px;
+    justify-content:center;
+    align-items:center;
+}
