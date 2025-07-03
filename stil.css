@@ -3,6 +3,7 @@ nav{
     background-color:#2c5551;
     height:55px;
     justify-content:space-evenly;
+    position: fixed;
 }
 nav ul{
     list-style:none;
